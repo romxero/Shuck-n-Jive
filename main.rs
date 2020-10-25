@@ -5,13 +5,21 @@
  * 
  */
 
-//~ use std::env;
-//~ use std::fs;
+
+//some standard libraries
+use std::env;
+use std::fs;
 //~ use std::mem;
 
 
-fn main() {
+//the yaml deps
+extern crate yaml;
+use std::io::BufReader;
+use yaml::constructor::*;
 
+
+
+fn main() {
 
 
 

@@ -8,6 +8,12 @@ edition = "2018"
 
 [dependencies]
 yaml = "0.3.0"
+rusqlite = "0.24.1"
+uuid = "0.8.1"
+json = "0.12.4"
+time = "0.2.22"
+regex = "1.4.1"
+
 
 [[bin]]
 name = "Shuck-n-Jive"
