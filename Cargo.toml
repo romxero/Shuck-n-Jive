@@ -1,0 +1,16 @@
+[package]
+name = "Shuck-n-Jive"
+version = "0.1.0"
+authors = ["Randy White <romxero@hotmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yaml = "0.3.0"
+
+[[bin]]
+name = "Shuck-n-Jive"
+path = "main.rs"
+
+
