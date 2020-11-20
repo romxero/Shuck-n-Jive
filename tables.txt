@@ -1,0 +1,15 @@
+[asset table] 
+id | index | primary key
+page name | string | 256 characters
+location | string | 512 characters
+hash | string | 256 characters
+publication date | date/time | 1 field
+tags | string | 256 characters
+tfidf_tags | string | 256 characters
+
+[tags aggregate table]
+id_from_asset_table | index | key
+hash_from_asset_table | string | 256 characters
+list_of_tags | json/array | 256 characters
+
+
